@@ -83,8 +83,8 @@ hr {
     padding: 2rem;
 }
 .hero.hero-img:{
-    max-width: 350px;
-    display: block;
+    max: width 350px;
+    display:block;
     margin:auto;
 }
 
@@ -108,4 +108,15 @@ hr {
     background-color: var(--off-white);
 }
 
+/** footer **/
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:#DC2626;
+    border-top-right-radius: 2rem;
+}
+.footer .link{
+    color: white;
+}
