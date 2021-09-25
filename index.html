@@ -1,194 +1,93 @@
-    <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>saurav darji portfolio</title>
-           <!--css way 1: style tag
-           
-           <style>
-                body{
-                    color:red;
-                }
-            </style>-->
-            <!-- third way of doing css: external link-->
-            <link href="style.css" rel="stylesheet" />
-        </head>
-        
-        <hr>
-
-        <h2>@header</h2>
-        
-        <header class="hero">
-            <img class="hero-img" src="images/hero.svg" />
-            <h1 class="hero-heading">SAURAV DARJI THE <span class="heading-inverted">
-                WEB DEVELOPER</span></h1>
-            </header>
-
-
-        <body>
-            
-            <h1> saurav darji portfolio</h1>
-            
-            <div> i am attending neogcamp and i want to make a library which would make all 
-                my projects look good and consistent.</div>
-            
-                <hr>
-        
-                <h2>@typography</h2>
-        
-                <h1>this is the biggest heading </h1>
-                <h2> this is the second biggest heading</h2>
-                <p>let me show you the normal text. this is free flowing and will wrap at the end
-                    like a paragraph.
-                    <p>this paragraph will have a <strong>bold</strong> text </p>
-                </p>
-                <small>this is relativly smaller txt</small>
-        
-                <hr>
-        
-                <h2>@container</h2>
-        
-                <h3>fluid container</h3>
-                <div class="container-fluid">this is a fluid container.it ll go till the end of the page.</div>
-        
-                <h3>center container</h3>
-                <div class="container container-center">this is going to be a center container. it ll go till the specified page.</div>
-        
-                <hr>
-        
-                <h2>@links</h2>
-        
-                <a class="link link-primary"
-                 href="/">primary link</a>
-                <a class="link link-secondary"
-                 href="/">secondary link</a>
-        
-                <hr>
-                
-                @lists
-                <div>
-                    here,s my list
-                    <div>1. item one</div>
-                    <div>2. item two</div>
-                    <div>3. item three</div>
-                </div>
-        
-                <h3>unordered list</h3>
-                <p> this list will not have the bullets</p>
-
-                <ul class="list-non-bullet">
-                    <li>item one</li>
-                    <li>item two</li>
-                    <li>item three</li>
-        
-                </ul>
-        
-                <h3>unordered inline list</h3>
-        
-                <ul class="list-non-bullet">
-                    <li class="list-item-inline">inline item one</li>
-                    <li class="list-item-inline">inline item two</li>
-                    <li class="list-item-inline">inline item three</li>
-                </ul>
-        
-                <h3> reverse ordered list</h3>
-        
-                <ol reversed>
-                    <li>milk</li>
-                    <li>books</li>
-                    <li>pencil</li>
-                </ol>
-        
-                <hr/>
-        
-                <h2>@nav</h2>
-        
-                <nav class="navigation container">
-                    <div class="nav-brand">i am brand</div>
-                    <ul class="list-non-bullet nav-pills">
-                      <li class="list-item-inline"> 
-                           <a class="link" href="/"><strong>HOME</strong></a>
-                        </li>
-                        <li class="list-item-inline">
-                            <a class="link" href="/"><strong>PRODUCT</strong></a>
-                        </li>
-                        <li class="list-item-inline">
-                            <a class="link" href="/"><strong>ABOUT</strong></a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <hr>
-
-                
-        <h2>@header</h2>
-        
-        <header class="hero">
-            <img class="hero-img" src="images/hero.svg" />
-            <h1 class="hero-heading">SAURAV DARJI THE <span class="heading-inverted">
-                WEB DEVELOPER</span></h1>
-        </header>
-
-        
-        <hr>
-        <h2>@section</h2>
-        <section class="section ">
-            <div class="container container-center">
-            <h3>white section</h3>
-            <p>The composition was first sung during a convention of 
-                the Indian National Congress in Calcutta
-                 on 27 December 1911.[45] It was sung on
-                  the second day of the convention. The event
-                   was reported thus in the British Indian press:</p>
-            </div>
-        </section>
-        <section class="section ow">
-            <div class="container container-center">
-                <h3>off white section</h3>
-                <p>The composition was first sung during a convention of 
-                    the Indian National Congress in Calcutta
-                     on 27 December 1911.[45] It was sung on the second day of 
-                     the convention.
-                     The event was reported thus in the British Indian press:</p> 
-            </div>
-
-        </section>
-        <hr>
-
-        <h2>@footer</h2>
-
-        <footer class="footer">
-            <div 
-            class="footer-header">some
-        small heading inside footer</div>
-        <ul class="social-link list-non-bullet">
-            <li 
-            class="list-item-inline">
-                <a class="link"
-                 href="/">socialone</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home | saurav darji</title>
+    <link href="style.css" rel="stylesheet "/>
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand" >
+            Welcome! To My Portfolio
+          </div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline"> 
+               <a class="link link-active" href="/"> HOME</a>
             </li>
-            <li 
-            class="list-item-inline">
-                <a class="link"
-                 href="/">socialtwo</a>
+            <li class="list-item-inline">
+                <a class="link " href="/projects.html">PROJECTS</a>
             </li>
-            <li 
-            class="list-item-inline">
-                <a class="link"
-                 href="/">socialthree</a>
+            <li class="list-item-inline">
+                <a class="link " href="/blogs.html">BLOGS</a>
             </li>
         </ul>
-        </footer>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">SAURAV DARJI THE <span class="heading-inverted">
+            WEB DEVELOPER</span></h1>
+        </header>
+
+        <section class="section ow">
+            <div class="container container-center">
+                <h3>TECHNOLOGIES</h3>
+                <p> I'm familiar with HTML5,CSS3,
+                    GIT,JAVASCRIPT,NodeJS,ReactJS, and 
+                    Web Hosting.
+                </p> 
+            </div>
+        
+        </section>
+
+        <section class="section ">
+            <div class="container container-center">
+                <h3>PROJECTS</h3>
+                <p>I like to showcase my work and thus, 
+                    you can see my projects hosted online
+                </p> 
+                <a class="link link-primary"
+         href="/projects.html">see projects</a>
+            </div>
+        
+        </section>
+
+        <section class="section ow">
+            <div class="container container-center">
+                <h3>BLOGS</h3>
+                <p>I am also working on some technical and non techincal blogs.
+                     I like to document my journey of learning.
+                </p> 
+                <a class="link link-secondary"
+         href="/blogs.html">Check blogs</a>
+            </div>
+        
+        </section>     
 
         
-
-
-
-        
-
-        <div style="height:30vh;">
-        </div>    
+<footer class="footer">
+    <div 
+    class="footer-header">connected with social media</div>
+<ul class="social-link list-non-bullet">
+    <li 
+    class="list-item-inline">
+        <a class="link"
+         href="https://github.com/iamsaurav28">Github</a>
+    </li>
+    <li 
+    class="list-item-inline">
+        <a class="link"
+         href="https://www.instagram.com/iamsaurav28">Instagram</a>
+    </li>
+    <li 
+    class="list-item-inline">
+        <a class="link"
+         href="https://www.linkedin.com/in/saurav-darji-853a6221b">Linkedin</a>
+    </li>
+</ul>
+</footer>
+    
 </body>
 </html>
