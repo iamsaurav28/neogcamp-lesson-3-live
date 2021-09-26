@@ -25,7 +25,7 @@ hr {
 }
 
 .container-fluid{
-    max-width: ;
+    /* max-width:; */
 
 }
 
@@ -105,11 +105,10 @@ hr {
     padding-bottom: 5rem;
 }
 
-.hero.hero-img:{
-    height:80px;
-    width:550px;
+.hero .hero-img {
     display: block;
-    margin:auto;   
+    margin:auto; 
+  
 }
 
 .hero .hero-heading {
@@ -161,6 +160,8 @@ hr {
 }
 
  /** projects **/
+ 
+
 .showcase-list {
     /* padding: 2rem; */
     padding: 2rem;
