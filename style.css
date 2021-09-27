@@ -4,6 +4,7 @@
     --primary-color:orange;
     --dark-gray:#9CA3AF;
     --off-white:#D1D5DB;
+    --blue:#3B82F6;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -118,8 +119,8 @@ hr {
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
-}
 
+}
 /** section **/
 .section {
     padding:2rem;
@@ -189,6 +190,7 @@ hr {
   
   .showcase-blog {
     padding-bottom: 6rem;
+    font-size: larger;
   }
   
   @media (max-width: 900px) {
