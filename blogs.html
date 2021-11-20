@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs | saurav darji</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link href="/style.css" rel="stylesheet" />
 
 </head>
@@ -27,7 +29,7 @@
         </ul>
     </nav>
 
-    <header class="hero">
+    <header class="hero" data-aos="zoom-in-up">
       <img class="hero-img" src="images/blog.svg" />
         <h1 class="hero-heading"> Read My 
             <span class="heading-inverted">
@@ -36,9 +38,9 @@
 
     <ul class="list-non-bullet">
         <li>
-          <article class="showcase-list container container-center ow">
+          <article class="showcase-list container container-center ow"  data-aos="flip-left" >
             <h1>sharing my first drawing experience</h1>
-            <small>November, 2020</small>
+            <small>september, 2021</small>
             <p>
           I had made my first residential building drawing of three floor in which i have shown 2D AND 3D plans of my drawing also with section and elevation.  
             </p>
@@ -48,9 +50,9 @@
         </li>
   
         <li>
-          <article class="showcase-list container container-center">
+          <article class="showcase-list container container-center"   data-aos="flip-left" >
             <h1> HOW AUTOCAD WORKS AND USES</h1>
-            <small>November, 2020</small>
+            <small>september, 2021</small>
             <p> CAD (Computer aided drafting and design) as the name itself suggests,is much more than just drawing lines for design purpose by electronic means.there are various reasons for using CAD.  
                        </p>
   
@@ -90,6 +92,11 @@
         </li>
     </ul>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>  
+   AOS.init()
+    </script>
     
 </body>
 </html>
