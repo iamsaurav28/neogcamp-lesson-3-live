@@ -326,8 +326,8 @@ footer ul li a {
   }
 
   .hero-img {
-    height: 380px;
-    width: 380px;
+    height: 200px;
+    width: auto;
   }
 
   .heroo-img {
